@@ -1,0 +1,32 @@
+
+#under {
+	background-color: darkgray;
+	color: white;
+	padding: 15px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 1px;
+	z-index: -5;
+}
+
+#between {
+	background-color: gray;
+	color: white;
+	padding: 15px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 1px;
+	box-shadow: 0px -5px 30px #545454;
+	z-index: -1;
+}
+
+
+
+#over {
+	position: relative;
+	padding: 15px;
+	box-shadow: 0px -5px 30px #545454;
+	color: #383838;
+	background-color: white;
+	z-index: 100;
+}
