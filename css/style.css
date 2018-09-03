@@ -1,7 +1,14 @@
+h1 {
+	color:orangered;
+}
+
 
 #under {
-	background-color: darkgray;
+	background-color: slategray;
 	color: white;
+	background-color:white;
+	color:#222222;
+	
 	padding: 15px;
 	position: sticky;
 	position: -webkit-sticky;
@@ -10,13 +17,16 @@
 }
 
 #between {
-	background-color: gray;
-	color: white;
+	background-color: white;
+	border-width: 10px 0px 0px 0px;
+	border-color: blue;
+	border-style: solid;
+	color: #222222;
 	padding: 15px;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 1px;
-	box-shadow: 0px -5px 30px #545454;
+
 	z-index: -1;
 }
 
@@ -25,7 +35,9 @@
 #over {
 	position: relative;
 	padding: 15px;
-	box-shadow: 0px -5px 30px #545454;
+	border-width: 10px 0px 0px 0px;
+	border-color: red;
+	border-style: solid;
 	color: #383838;
 	background-color: white;
 	z-index: 100;
