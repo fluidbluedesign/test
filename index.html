@@ -1,61 +1,255 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype HTML>
+
+<!-- head -->
+
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio test 2\</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<title>Template | BareCSS</title>
 
-  
-      <link rel="stylesheet" href="css/style.css">
+	<!-- meta -->
+	<meta charset=utf-8>
+	<meta name="description" content="BareCSS template file">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  
+	<!-- css -->
+
+	<link href="css/bare.min.css" rel="stylesheet">
 </head>
+
+<!-- body -->
 
 <body>
 
-  <div id="under">
-	<h1>Thejus Kayanadath's Portfolio</h1>
-	<p>I create experiences and tell stories using design and code. </p>
-	<p>Work with me. Email me at thejus@fluidblue.design 💌</p>
+	<!-- nav -->
 
-</div>
+	<nav fx>
+		<!-- use fx attribute for fixed positioning -->
+		<label>
+			<input type="checkbox">
+			<header>
+				<a href="index.html"><img src="icons/categories/ecommerce_diamond.svg">rightsBOX</a>
+			</header>
 
-<div id="between">
-	<h4>WHAT I'M UP TO</h4>
-	<p>Some text</p>
-	<p>Some more text</p>
-	<p>Even more text, hmm</p>
-	<p>One more line for good measure.</p>
-	<p>Some more text</p>
-	<p>Even more text, hmm</p>
+			<ul>
+				<li><a href="#one">What's rightsBOX?</a></li>
+				<li><a href="#two">Services</a></li>
+				<li><a href="#two">Why us?</a></li>
+				<li><a href="#two">Team</a></li>
+				<li>
+					<a>Drop down</a>
+					<menu>
+						<menuitem><a href="#three">Menu item</a></menuitem>
+						<menuitem><a href="#four">Menu item</a></menuitem>
+						<menuitem><a href="#five">Menu item</a></menuitem>
+					</menu>
+				</li>
+			</ul>
+		</label>
+	</nav>
 
-</div>
+	<!-- standard section for content 
+<section  mt->
+	<h1>Standard content</h1>
+	
+	<p>Paragraph one lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+	
+	<p>Paragraph two exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+</section>
 
-<div id="over">
-	<h4>This is a subheading</h4>
-	<p>This is some text</p>
-	<p>Some more text</p>
-	<p>Even more text, hmm</p>
-	<p>One more line for good measure.</p>
-	<p>This is some text</p>
-	<p>Some more text</p>
-	<p>Even more text, hmm</p>
-	<p>One more line for good measure.</p>
-	<p>Even more text, hmm</p>
-	<p>One more line for good measure.</p>
-	<p>This is some text</p>
-	<p>Some more text</p>
-	<p>One more line for good measure.</p>
-	<p>This is some text</p>
-	<p>Some more text</p>
-	<p>Even more text, hmm</p>
-	<p>box-shadow: 0px -5px 30px #545454;</p>
-	<p>This is some text</p>
-</div>
-  
-  
+ section with grid -->
+
+	<section style="margin-top: 8rem">
+		<h1>Heading goes here</h1>
+
+		<grid>
+			<div col="2/3">
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+			</div>
+
+			<div col="1/3">
+				<img src="img/undraw_preferences_uuo2.svg" alt="sign">
+			</div>
+
+		</grid>
+	</section>
+
+	<section>
+		<h2 txt="c">Heading goes here</h2>
+	</section>
+	<section>
+		<img src="img/undraw_preferences_uuo2.svg" alt="sign">
+
+
+	</section>
+	<section>
+		<h2>Heading stuff here</h2>
+		<grid>
+			<div col="1/3">
+				<card>
+					<h5>Title 1</h5>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+				</card>
+			</div>
+			<div col="1/3">
+				<card>
+					<h5>Title 2</h5>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+				</card>
+			</div>
+			<div col="1/3">
+				<card>
+					<h5>Title 3</h5>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+				</card>
+			</div>
+
+		</grid>
+	</section>
+
+
+	<section>
+
+		<h2 txt="c">Heading goes here</h2>
+
+		<grid>
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/basic_elaboration_cloud_download.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/music_fastforward_button.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/ecommerce_diamond.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/ecommerce_graph_increase.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/ecommerce_dollar.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+
+			<div col="1/3">
+				<card>
+					<grid>
+						<div col="1/3"><img src="icons/categories/music_shuffle_button.svg" width="80%"></div>
+						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore
+							magna aliqua exercitation ullamco</div>
+					</grid>
+				</card>
+			</div>
+
+		</grid>
+
+
+
+
+	</section>
+
+	<section>
+
+		<h2 txt="c">Heading goes here</h2>
+	</section>
+	<section>
+		<grid>
+			<grid>
+				<div col="1/3">
+					<img src="img/undraw_server_status_5pbv.svg" alt="image1">
+				</div>
+				<div col="1/3">
+					<img src="img/undraw_loading_frh4.svg" alt="image1">
+				</div>
+				<div col="1/3">
+					<img src="img/undraw_preferences_uuo2.svg" alt="image1">
+				</div>
+			</grid>
+	</section>
+
+	<section>
+		<grid>
+			<grid>
+				<div col="1/3">
+					<img src="img/undraw_server_status_5pbv.svg" alt="image1">
+				</div>
+				<div col="1/3">
+					<img src="img/undraw_loading_frh4.svg" alt="image1">
+				</div>
+				<div col="1/3">
+					<img src="img/undraw_preferences_uuo2.svg" alt="image1">
+				</div>
+			</grid>
+	</section>
+	
+
+
+	<!-- the footer background will expand to 100% of viewport but contents will be contained to standard width -->
+	<footer>
+		<grid>
+			<div col="1/2">
+				<p>rightsBOX. <a att href="http://www.rightsbox.com" target="_blank">Link to Something</a></p>
+			</div>
+
+			<div col="1/2" txt="r">
+				<div txt="l">
+					<h4>Sign up for our newsletter</h4>
+					<label>Email Address</label>
+
+					<input type="text" placeholder="you@mail.com">
+				</div>
+
+			</div>
+		</grid>
+	</footer>
 
 </body>
 
