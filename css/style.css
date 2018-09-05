@@ -1,0 +1,31 @@
+
+/* headers - put headers inside a div with class header */
+
+
+
+
+
+.intro-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.intro-title {
+    font-weight: 400;
+    line-height: 1.375
+}
+
+.intro-title strong {
+    font-weight: 600
+}
+
+/* headers - put headers inside a div with class header */
+
+.header {
+    margin-bottom: 3rem;
+}
+
+.notification{
+    height: 100%;
+}

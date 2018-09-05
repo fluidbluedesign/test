@@ -1,252 +1,284 @@
-<!doctype HTML>
-
-<!-- head -->
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-	<title>Template | BareCSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
-	<!-- meta -->
-	<meta charset=utf-8>
-	<meta name="description" content="BareCSS template file">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-	<!-- css -->
-
-	<link href="css/bare.min.css" rel="stylesheet">
 </head>
 
-<!-- body -->
+<body class="has-navbar-fixed-top">
 
-<body>
+    <nav class="navbar is-fixed-top is-spaced has-shadow" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="icons/Asset 2.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150"
+                        height="100" style="margin-top:5px;">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
 
-	<!-- nav -->
-
-	<nav fx>
-		<!-- use fx attribute for fixed positioning -->
-		<label>
-			<input type="checkbox">
-			<header>
-				<a href="index.html"><img src="icons/categories/ecommerce_diamond.svg">rightsBOX</a>
-			</header>
-
-			<ul>
-				<li><a href="#one">What's rightsBOX?</a></li>
-				<li><a href="#two">Services</a></li>
-				<li><a href="#two">Why us?</a></li>
-				<li><a href="#two">Team</a></li>
-				<li>
-					<li>
-						<button primary round>Sign Up</button>
-					</li>
-				</li>
-			</ul>
-		</label>
-	</nav>
-
-	<!-- standard section for content 
-<section  mt->
-	<h1>Standard content</h1>
-	
-	<p>Paragraph one lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-	
-	<p>Paragraph two exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-</section>
-
- section with grid -->
-
-	<section style="margin-top: 8rem">
-		<h1>Heading goes here</h1>
-
-		<grid>
-			<div col="2/3">
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-					magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-			</div>
-
-			<div col="1/3">
-				<img src="img/undraw_preferences_uuo2.svg" alt="sign">
-			</div>
-
-		</grid>
-	</section>
-
-	<section>
-		<h2 txt="c">Heading goes here</h2>
-	</section>
-	<section>
-		<img src="img/undraw_preferences_uuo2.svg" alt="sign">
+            </div>
+            <div class="navbar-menu">
+                <!-- navbar start, navbar end -->
 
 
-	</section>
-	<section>
-		<h2>Heading stuff here</h2>
-		<grid>
-			<div col="1/3">
-				<card>
-					<h5>Title 1</h5>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-				</card>
-			</div>
-			<div col="1/3">
-				<card>
-					<h5>Title 2</h5>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-				</card>
-			</div>
-			<div col="1/3">
-				<card>
-					<h5>Title 3</h5>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-				</card>
-			</div>
+                <div class="navbar-start">
+                    <!-- navbar items -->
+                    <a class="navbar-item">
+                    </a>
+                </div>
 
-		</grid>
-	</section>
+                <div class="navbar-end">
+                    <!-- navbar items -->
+                    <a class="navbar-item">
+                        What's RightsBOX?
+                    </a>
+                    <a class="navbar-item">
+                        Services
+                    </a>
+                    <a class="navbar-item">
+                        Why Us?
+                    </a>
+                    <a class="navbar-item">
+                        Team
+                    </a>
+                    <div class="navbar-item">
+                        <p class="control">
+                            <a href="" class="button is-primary">
+                                <strong>Sign Up</strong>
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
 
 
-	<section>
-
-		<h2 txt="c">Heading goes here</h2>
-
-		<grid>
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/basic_elaboration_cloud_download.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/music_fastforward_button.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/ecommerce_diamond.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/ecommerce_graph_increase.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/ecommerce_dollar.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-
-			<div col="1/3">
-				<card>
-					<grid>
-						<div col="1/3"><img src="icons/categories/music_shuffle_button.svg" width="80%"></div>
-						<div col="2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua exercitation ullamco</div>
-					</grid>
-				</card>
-			</div>
-
-		</grid>
+            </div>
+        </div>
 
 
 
 
-	</section>
 
-	<section>
-
-		<h2 txt="c">Heading goes here</h2>
-	</section>
-	<section>
-		<grid>
-			<grid>
-				<div col="1/3">
-					<img src="img/undraw_server_status_5pbv.svg" alt="image1">
-				</div>
-				<div col="1/3">
-					<img src="img/undraw_loading_frh4.svg" alt="image1">
-				</div>
-				<div col="1/3">
-					<img src="img/undraw_preferences_uuo2.svg" alt="image1">
-				</div>
-			</grid>
-	</section>
-
-	<section>
-		<grid>
-			<grid>
-				<div col="1/3">
-					<img src="img/undraw_server_status_5pbv.svg" alt="image1">
-				</div>
-				<div col="1/3">
-					<img src="img/undraw_loading_frh4.svg" alt="image1">
-				</div>
-				<div col="1/3">
-					<img src="img/undraw_preferences_uuo2.svg" alt="image1">
-				</div>
-			</grid>
-	</section>
-	
+    </nav>
 
 
-	<!-- the footer background will expand to 100% of viewport but contents will be contained to standard width -->
-	<footer>
-		<grid>
-			<div col="1/2">
-				<p>rightsBOX. <a att href="http://www.rightsbox.com" target="_blank">Link to Something</a></p>
-			</div>
+    <section class="hero is-medium intro">
+        <div class="hero-body">
+            <div class="container intro-container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title is-2 is-spaced">
+                            Hello out there.
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Lorem ipsumm dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et ex ea commodo consequat.
+                        </h2>
+                    </div>
+                    <div class="column">
+                        <figure class="image is-2by1">
+                            <img width="200px" src="img/undraw_preferences_uuo2.svg">
+                        </figure>
+                    </div>
+                </div>
 
-			<div col="1/2" txt="r">
-				<div txt="l">
-					<h4>Sign up for our newsletter</h4>
-					<label>Email Address</label>
 
-					<input type="text" placeholder="you@mail.com">
-				</div>
+            </div>
+        </div>
+    </section>
 
-			</div>
-		</grid>
-	</footer>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="title is-3 has-text-centered header">
+                    Subheading goes here.
+                </h2>
+            </div>
+            <figure class="image is-2by1">
+                <img src="img/undraw_preferences_uuo2.svg" width="300px">
+            </figure>
+        </div>
+    </section>
+
+
+    <section class="section is-spaced is-medium">
+        <div class="container">
+            <div class="header">
+                <h2 class="title is-3">Hello this is another title.</h2>
+            </div>
+
+
+            <div class="columns is-4">
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <h4 class="title is-5">Some title</h4>
+                        <p class="subtitle is-5 has-text-weight-normal">Lorem ipsumm dolor sit amet, adipisicing elit,
+                            sed
+                            do eiusmod tempor incididunt ut
+                            labore et ex ea</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <h5 class="title is-5">Another title</h4>
+                            <p class="subtitle is-5 has-text-weight-normal">Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <h5 class="title is-5">A third title</h4>
+                            <p class="subtitle is-5 has-text-weight-normal">Lorem adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut
+                                labore et ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="title has-text-centered is-3 header">
+                    Title goes here.
+                </h2>
+            </div>
+
+
+
+            <div class="columns is-6">
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+            <div class="columns is-6">
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="notification has-background-light">
+                        <article class="media">
+                            <figure class="image is-48x48 media-left">
+                                <img src="icons/basic_elaboration_cloud_download.svg" alt="icon">
+                            </figure>
+                            <p class="media-content">
+                                Lorem ipsumm dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et ex ea commodo consequat.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <figure class="image is-200x200">
+
+                <img src="icons/Asset 2.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150px" height="100px"
+                    style="margin-top:5px; max-width: 250px;">
+
+            </figure>
+
+        </div>
+    </footer>
+
 
 </body>
 
