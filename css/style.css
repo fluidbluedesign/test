@@ -181,5 +181,7 @@ body {
 		  
 	}
 
-
+	.content {
+		max-width: 300px;
+	}
 }
