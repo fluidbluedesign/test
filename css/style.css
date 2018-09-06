@@ -102,27 +102,70 @@ body {
 	background: #f5f5f5
 }
 
+/* elements */
+/* square card placeholder */
+.cardImage {
+	height: 80vw;
+	background-color: pink;
+	border-radius: 1%;
+	padding: 5px;
+	margin: 2em 0em;
+}
+
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
 
+	/* hero stuff */
 	#under {
 		display: flex;
 		justify-content: center;
 		padding-top: 3em;
 		padding-bottom: 3em;
 	}
+
 	.container {
 		display: flex;
-		max-width: 800px;
 		flex-grow: 1;
+	}
+
+	.hero {
+		max-width: 800px;
 		justify-content: space-around;
 	}
 
 	h1 {
 		margin-top: 1em;
 	}
-	.content{
+
+	.content {
 		margin-top: 1em;
 	}
+
+	/* grid */
+	#over {
+		display: flex;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.gridContainer {
+		padding-top: 3em;
+		max-width: 1000px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 3em;
+
+		
+	}
+
+	.cardImage {
+		padding: 2em;
+		height: 500px;
+	}
+
+	/* 600px ends here */
 }
