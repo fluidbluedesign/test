@@ -15,11 +15,11 @@
 }
 
 /* headers - put headers inside a div with class header */
-.header {
+.bottomMargin {
     margin-bottom: 3rem;
 }
 
-.headerpadding {
+.bottomPadding {
     padding-bottom: 3rem;
 }
 
@@ -44,5 +44,9 @@
 }
 
 .smallerBottomMargin {
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.4em !important;
+}
+
+.listItems.h3 {
+    display: block !important;
 }
