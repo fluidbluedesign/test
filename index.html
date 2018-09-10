@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <link rel="stylesheet" href="css/bulma-extensions.min.css">
+    <script src="js/bulma-extensions.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 
@@ -50,8 +53,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
-                    <img src="icons/Asset 1.svg" alt="" width="115"
-                        height="100" style="margin-top:5px;">
+                    <img src="icons/Asset 1.svg" alt="" width="115" height="100" style="margin-top:5px;">
                 </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
@@ -72,16 +74,17 @@
 
                 <div class="navbar-end">
                     <!-- navbar items -->
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#WhatIs">
                         What's RightsBOX?
                     </a>
-                    <a class="navbar-item">
-                        Services
-                    </a>
-                    <a class="navbar-item">
+                    
+                    <a class="navbar-item" href="#WhyUs">
                         Why Us?
                     </a>
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#Services">
+                            Services
+                        </a>
+                    <a class="navbar-item" href="#Team">
                         Team
                     </a>
                     <div class="navbar-item">
@@ -116,7 +119,7 @@
                     A quick and easy way to register your intellectual property.
                 </h2>
                 <div class="bottomPadding">
-                    <a class="bottomMargin button is-large is-primary"><strong>Try it now!</strong></a>
+                    <a class="bottomMargin button is-large is-primary" href="steps.html" ><strong>Try it now!</strong></a>
                 </div>
 
 
@@ -127,14 +130,6 @@
 
 
             </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container bottomMargin">
-            <figure class="image is-2by1">
-                <img src="img/undraw_preferences_uuo2.svg" width="300px">
-            </figure>
         </div>
     </section>
 
@@ -351,8 +346,7 @@
                             <span class="media-content">
 
                                 <h5 class="title is-4 smallerBottomMargin">Expensive</h5>
-                                <p class="is-6">Depending on your IPO, it can take upto 11 months to get your IP
-                                    registered from the time you submit the application.</p>
+                                <p class="is-6">The official fee can range from $20-40, with an additional $100-300 for legal fee upon consulting an IP lawyer.</p>
 
                             </span>
                         </article>
@@ -366,15 +360,15 @@
                     <div class="notification fullHeight  has-background-light">
                         <article class="media">
                             <span class="media-left">
-                                <span class="icon">
-                                    <i class="far fa-lg fa-clock"></i>
-                                </span>
+                                    <span class="icon has-text-danger is-medium">
+                                            <i class="fas fa-lg fa-question-circle"></i>
+                                        </span>
                             </span>
                             <span class="media-content">
 
-                                <h5 class="title is-4 smallerBottomMargin">Time-consuming</h5>
-                                <p class="is-6">Depending on your IPO, it can take upto 11 months to get your IP
-                                    registered from the time you submit the application.</p>
+                                <h5 class="title is-4 smallerBottomMargin">Intricate Process</h5>
+                                <p class="is-6">Various complex steps in the way of getting any IP registered causes people to not respond positively to formal registration.
+                                    </p>
 
                             </span>
                         </article>
@@ -385,15 +379,14 @@
                     <div class="notification fullHeight  has-background-light">
                         <article class="media">
                             <span class="media-left">
-                                <span class="icon">
-                                    <i class="far fa-lg fa-clock"></i>
-                                </span>
+                                    <span class="icon has-text-danger is-medium">
+                                            <i class="fas fa-lg fa-book"></i>
+                                        </span>
                             </span>
                             <span class="media-content">
 
-                                <h5 class="title is-4 smallerBottomMargin">Time-consuming</h5>
-                                <p class="is-6">Depending on your IPO, it can take upto 11 months to get your IP
-                                    registered from the time you submit the application.</p>
+                                <h5 class="title is-4 smallerBottomMargin">Learning Curve</h5>
+                                <p class="is-6">An in-depth understanding of the IP registration process is required in-order-to register properly.</p>
 
                             </span>
                         </article>
@@ -404,15 +397,16 @@
                     <div class="notification fullHeight  has-background-light">
                         <article class="media">
                             <span class="media-left">
-                                <span class="icon">
-                                    <i class="far fa-lg fa-clock"></i>
-                                </span>
+                                    <span class="icon has-text-danger is-medium">
+                                            <i class="fas fa-lg fa-ban"></i>
+                                        </span>
                             </span>
                             <span class="media-content">
 
-                                <h5 class="title is-4 smallerBottomMargin">Time-consuming</h5>
-                                <p class="is-6">Depending on your IPO, it can take upto 11 months to get your IP
-                                    registered from the time you submit the application.</p>
+                                <h5 class="title is-4 smallerBottomMargin">No rights management</h5>
+                                <p class="is-6">
+                                        Formal IP registration doesn't involve the management of the usage of the rights. One needs to further register with a relevant rights society.
+                                        </p>
 
                             </span>
                         </article>
@@ -426,7 +420,7 @@
     </section>
 
 
-    <section class="section is-medium">
+    <section class="section is-medium" id="WhatIs">
         <div class="container intro-container">
             <h2 class="title is-2 has-text-centered bottomPadding">We let you do it in minutes.</h2>
 
@@ -511,29 +505,187 @@
 
 
 
-    <section class="section is-medium">
+    <section class="section is-medium" id="WhyUs" >
         <div class="container intro-container">
             <h2 class="title is-2 has-text-centered bottomPadding">Why us?</h2>
 
             <span class="listItems">
-                <h3 class="title is-2 bottomPadding">1. <span class="has-text-weight-normal">Only you have access to your data.</span>    </h3>
-                <h3 class="title is-2 bottomPadding">2. <span class="has-text-weight-normal">You control your rights and how they're used.</span>    </h3>
-                <h3 class="title is-2 bottomPadding">3. <span class="has-text-weight-normal">Your data is stored on an immutable blockchain.</span>    </h3>
-                <h3 class="title is-2 bottomPadding">4. <span class="has-text-weight-normal">Our tokens let you trade your rights.</span>    </h3>
-                <h3 class="title is-2 bottomPadding ">5. <span class="has-text-weight-normal">Our systems act as a bonafide proof of your IP.</span>    </h3>
-                <h3 class="title is-2 bottomPadding">6. <span class="has-text-weight-normal">You can register with multiple rights owners easily.</span>    </h3>
+                <h3 class="title is-2 bottomPadding">1. <span class="has-text-weight-normal">Only you have access to
+                        your data.</span> </h3>
+                <h3 class="title is-2 bottomPadding">2. <span class="has-text-weight-normal">You control your rights
+                        and how they're used.</span> </h3>
+                <h3 class="title is-2 bottomPadding">3. <span class="has-text-weight-normal">Your data is stored on an
+                        immutable blockchain.</span> </h3>
+                <h3 class="title is-2 bottomPadding">4. <span class="has-text-weight-normal">Our tokens let you trade
+                        your rights.</span> </h3>
+                <h3 class="title is-2 bottomPadding ">5. <span class="has-text-weight-normal">Our systems act as a
+                        bonafide proof of your IP.</span> </h3>
+                <h3 class="title is-2 bottomPadding">6. <span class="has-text-weight-normal">You can register with
+                        multiple rights owners easily.</span> </h3>
             </span>
 
-            
 
-           
 
-            
+
+
+
 
 
         </div>
     </section>
 
+
+    <section class="section is-medium"  id="Services">
+        <div class="container intro-container">
+
+            <h2 class="title is-2 has-text-centered bottomPadding">Services</h2>
+
+
+            <nav class="tabs is-toggle is-centered bottomMargin">
+                <div class="container">
+                    <ul>
+                        <li class="tab is-active" onclick="openTab(event,'WebDev')"><a>Literary</a></li>
+                        <li class="tab" onclick="openTab(event,'WebAud')"><a>Dramatic</a></li>
+                        <li class="tab" onclick="openTab(event,'Support')"><a>Musical</a></li>
+                        <li class="tab" onclick="openTab(event,'Sound')"><a>Sound Recording</a></li>
+                        <li class="tab" onclick="openTab(event,'Film')"><a>Film and Broadcast</a></li>
+                        <li class="tab" onclick="openTab(event,'Artistic')"><a>Artistic</a></li>
+                        <li class="tab" onclick="openTab(event,'Websites')"><a>Websites and Software</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="container intro-container" style="max-width: 800px">
+            <div id="WebDev" class="content-tab">
+                <p class="is-size-4">
+                    You can register long works like books, anthologies, journals, articles, novels, databases and
+                    libraries etc.; and short works like abstracts, poems, dictionary and encyclopedia entries etc. on
+                    our
+                    platform.</p>
+            </div>
+            <div id="WebAud" class="content-tab" style="display:none">
+                <p class="is-size-4">
+                    Plays, screenplays, scripts, choreographic notation, choreographic shows and scenarios for film
+                    etc.</p>
+            </div>
+            <div id="Support" class="content-tab" style="display:none">
+                <p class="is-size-4">
+                    Written scores, sheet music, broadsheets and other notation.
+
+
+                </p>
+            </div>
+            <div id="Sound" class="content-tab" style="display:none">
+                <p class="is-size-4">
+                    Recorded Music, Songs, audio books, sound effects, audio recordings of speeches and interview,
+                    audio podcasts and soundtracks etc.
+                </p>
+            </div>
+            <div id="Film" class="content-tab" style="display:none">
+                <p class="is-size-4">
+                    Feature Films, TV Programs, documentaries, Short Films, Home Videos, Animated Films, Cartoons, TV
+                    Commercials, Video Podcasts, Computer Games etc.
+
+                </p>
+            </div>
+            <div id="Artistic" class="content-tab" style="display:none">
+                <p class="is-size-4">
+                    Photographs, paintings, Sculptures, maps, charts, graphs, diagrams, static cartons, logos,
+                    engravings, sketches, blueprints, building models etc.
+
+                </p>
+            </div>
+            <div id="Websites" class="content-tab" style="display:none">
+                <p class="is-size-4">
+
+                    You can also register your website code and software code with us.
+
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="section is-medium"  id="Team">
+
+        <div class="container">
+
+                
+        <h2 class="title is-2 has-text-centered bottomPadding">Team</h2>
+            <div class="columns is-variable is-6">
+                <div class="column">
+                        <div class="card fullHeight">
+                                <div class="card-image">
+                                  <figure class="image is-3by3">
+                                    <img src="img/team1.png" alt="Placeholder image">
+                                  </figure>
+                                </div>
+                                <div class="card-content">
+                                  <div class="media">
+                                    <div class="media-content">
+                                      <p class="title is-4">Pranav Sood</p>
+                                      <p class="subtitle is-6">CHIEF EXECUTIVE OFFICER</p>
+                                    </div>
+                                  </div>
+                              
+                                  <div class="content">
+                                        Pranav is a singer-songwriter and an active freelancer in the music industry. With a degree in Music Technology, he has recognised problems with the music industry, which we aim to fix. <br>He has an extensive knowledge of the music industry and a regard for high technical standards.
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+                <div class="column">
+                        <div class="card fullHeight">
+                                <div class="card-image">
+                                  <figure class="image is-3by3">
+                                    <img src="img/team2.png" alt="Placeholder image">
+                                  </figure>
+                                </div>
+                                <div class="card-content">
+                                  <div class="media">
+                                    <div class="media-content">
+                                      <p class="title is-4">Vibhor Jain</p>
+                                      <p class="subtitle is-6">CHIEF OPERATING OFFICER</p>
+                                    </div>
+                                  </div>
+                              
+                                  <div class="content">
+                                        Being an entrepreneur in the tech network, and having founded music related companies in the past, Vibhor has all the necessary skill sets required to make the best of any idea. <br>He is passionate about decentralisation and strives to make everything accessible to everyone.
+                                    </div>
+                                </div>
+                              </div>
+                </div>
+                
+
+                <div class="column">
+                        <div class="card fullHeight">
+                                <div class="card-image">
+                                  <figure class="image is-3by3">
+                                    <img src="img/team3.png" alt="Placeholder image">
+                                  </figure>
+                                </div>
+                                <div class="card-content">
+                                  <div class="media">
+                                    <div class="media-content">
+                                      <p class="title is-4">Rishabh Narang</p>
+                                      <p class="subtitle is-6">CHIEF INVESTMENT OFFICER</p>
+                                    </div>
+                                  </div>
+                              
+                                  <div class="content">
+                                        Rishabh is an Independent Researcher and a Blockchain Venture Capitalist in the network of Blockchain enthusiasts involved with companies having a high growth potential. <br>He is intensely passionate about decentralisation and spends his time being an active investor on ICOs, while being an active endorser of cryptocurrencies.
+
+                                  </div>
+                                </div>
+                              </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
 
@@ -542,72 +694,67 @@
 
         <div class="container">
 
-<div class="level">
+            <div class="level">
 
-    <div class="level-left">
-        
+                <div class="level-left">
 
-            <div>
-                    <figure class="image is-200x200" style="padding-bottom: 1em;">
 
-                            <img src="icons/Asset 1.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150px" height="100px"
-                                style="margin-top:5px; max-width: 250px;">
-            
+                    <div>
+                        <figure class="image is-200x200" style="padding-bottom: 1em;">
+
+                            <img src="icons/Asset 1.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150px"
+                                height="100px" style="margin-top:5px; max-width: 250px;">
+
                         </figure>
                         <h5 class="title is-5">
-                                Please get in touch!
-                            </h5>
-                            <div style="padding-bottom: 1em;">
-                                    <a class="button" >
-                                            <span class="icon navbarIcon">
-                                                <i class="fas fa-envelope"></i>
-                                            </span>
-                                            <span>link@phasebox.io</span>
-                                        </a>
-                            </div>
-                            
-                                
-                                        <a class="button">
-                                                <span class="icon navbarIcon">
-                                                    <i class="fab fa-telegram-plane"></i>
-                                                </span>
-                                                <span>Telegram</span>
-                                            </a>
-                                
-                                
-
-
-
-            </div>
-                
-
-       
-            
-    </div>
-
-    <div class="level-right">
-       <div>
-            <h5 class="title is-5">
-                    Subscribe to our newsletter!
-                </h5>
-                
-                        <p class="control has-icons-left">
-                                <span class="icon is-small is-left">
+                            Please get in touch!
+                        </h5>
+                        <div style="padding-bottom: 1em;">
+                            <a class="button">
+                                <span class="icon navbarIcon">
                                     <i class="fas fa-envelope"></i>
                                 </span>
-                                <input class="input" type="text" placeholder="Email Address">
-                            </p>
-                
-       </div>
-            
-            
-        
+                                <span>link@phasebox.io</span>
+                            </a>
+                        </div>
 
 
-    </div>
-</div>
+                        <a class="button">
+                            <span class="icon navbarIcon">
+                                <i class="fab fa-telegram-plane"></i>
+                            </span>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
 
-           
+
+
+
+                </div>
+
+                <div class="level-right">
+                    <div>
+                        <h5 class="title is-5">
+                            Subscribe to our newsletter!
+                        </h5>
+
+                        <p class="control has-icons-left">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <input class="input" type="text" placeholder="Email Address">
+                        </p>
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+
 
         </div>
     </footer>
