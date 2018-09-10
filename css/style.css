@@ -42,3 +42,7 @@
     padding: 2rem 0rem;
     margin-bottom: calc(1.5rem - .75rem);
 }
+
+.smallerBottomMargin {
+    margin-bottom: 0.5em !important;
+}
