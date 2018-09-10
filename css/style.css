@@ -1,10 +1,4 @@
-
 /* headers - put headers inside a div with class header */
-
-
-
-
-
 .intro-container {
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +15,6 @@
 }
 
 /* headers - put headers inside a div with class header */
-
 .header {
     margin-bottom: 3rem;
 }
@@ -30,11 +23,22 @@
     padding-bottom: 3rem;
 }
 
-.notification{
+/* fixing notification height for table */
+.fullHeight {
     height: 100%;
 }
 
-.arrowContainer
-{
+.arrowContainer {
     height: 100%;
+}
+
+/* fixing navbar icon margins */
+.navbarIcon {
+    margin-left: -.25em;
+    margin-right: .25em;
+}
+
+.specialSection {
+    padding: 3rem 0rem;
+    margin-bottom: calc(1.5rem - .75rem);
 }
