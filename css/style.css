@@ -1,52 +1,70 @@
-/* headers - put headers inside a div with class header */
-.intro-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 950px;
+.flexCenter {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background: papayawhip;
+	width: 100vw;
 }
 
-.intro-title {
-    font-weight: 400;
-    line-height: 1.375
+.card {
+	background: white;
+	height: 60vh;
+	width: 70vw;
+	border-radius: 1px;
+	margin: 40px;
+	margin-bottom:70px;
+	padding: 20px;
+box-shadow: 0px -1px 20px -13px rgba(122,0,122,1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.intro-title strong {
-    font-weight: 600
+.inner {
+	width: 90%;
+	height: 90%;
+	padding: 20px;
+	
 }
 
-/* headers - put headers inside a div with class header */
-.bottomMargin {
-    margin-bottom: 3rem;
+.innerBlue {
+	border: solid slateblue;
 }
 
-.bottomPadding {
-    padding-bottom: 3rem;
+.innerGreen {
+	border: solid orangered;
 }
 
-/* fixing notification height for table */
-.fullHeight {
-    height: 100%;
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 50px;
+}
+.stickytwo {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
 }
 
-.arrowContainer {
-    height: 100%;
+.stickythree {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20px;
 }
 
-/* fixing navbar icon margins */
-.navbarIcon {
-    margin-left: -.25em;
-    margin-right: .25em;
+
+
+.scene {
+	perspective: 700;
 }
 
-.specialSection {
-    padding: 2rem 0rem;
-    margin-bottom: calc(1.5rem - .75rem);
+.green {
+background: lightgreen
 }
 
-.smallerBottomMargin {
-    margin-bottom: 0.5em !important;
+.blue {
+	background: lightblue;
 }
 
-.listItems.h3 {
-    display: block !important;
-}
+
+
