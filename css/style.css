@@ -59,6 +59,10 @@ strong {
 	font-weight: 700;
 }
 
+a {
+text-decoration: none;
+}
+
 /* layout */
 
 body {
