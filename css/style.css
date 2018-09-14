@@ -76,7 +76,7 @@ body {
 /* card and scene */
 .card {
 	background: white;
-	height: 60vh;
+	height: 70vh;
 	width: 80vw;
 	border-radius: 1px;
 	margin: 35px;
@@ -88,16 +88,17 @@ body {
 	justify-content: center;
 }
 
-.content {
-	padding-right: 10%;
-}
 
 .inner {
 	width: 90%;
 	height: 90%;
 	padding: 0px;
-
 }
+
+.content {
+	padding-right: 10%;
+}
+
 
 .scene {
 	perspective: 700;
@@ -139,7 +140,6 @@ footer {
 	.content {
 		padding-right: 10%;
 		max-width: 700px;
-
 	}
 
 	.card {
@@ -154,7 +154,6 @@ footer {
 @media screen and (max-width:600px){
 
 	h2 {
-		
 			font-size: 1.125em;
 			/* 1.125x body copy size = 18px */
 			line-height: 1.4;
@@ -169,4 +168,20 @@ footer {
 		margin: 0.1rem 0rem;
 	}
 
+}
+
+.altCard {
+	height: 65vh;
+	width: 80vw;
+	border-radius: 1px;
+	margin: 35px;
+	margin-bottom: 35px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.firstInner {
+	width: 100%;
 }
