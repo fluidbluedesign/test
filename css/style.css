@@ -67,14 +67,16 @@ text-decoration: none;
 
 body {
 	background: papayawhip;
+	display: flex;
+	justify-content: center;
 }
 
 .flexCenter {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-
 	width: 100vw;
+	max-width: 1200px;
 }
 
 /* card and scene */
@@ -82,6 +84,7 @@ body {
 	background: white;
 	height: 70vh;
 	width: 80vw;
+	max-width: 1200px;
 	border-radius: 1px;
 	margin: 35px 0px;
 	padding: 10px;
@@ -107,6 +110,27 @@ body {
 	perspective: 700;
 
 }
+
+/* first card */
+
+.altCard {
+	width: 85vw;
+	border-radius: 1px;
+	margin: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	max-width: 1200px;
+}
+
+.firstInner {
+	width: 100%;
+	max-width: 300px;
+}
+
+.firstHeading {
+	margin: 0.1rem 0rem;
+}
+
 
 /* sticky layers */
 .sticky {
@@ -150,6 +174,17 @@ footer {
 		margin-bottom: 100px;
 	}
 
+	/* first card */
+
+	.altCard { 
+		width: 80vw;
+		padding: 30px 0px 90px 0px;
+	}
+
+	.firstInner {
+		max-width: 700px;
+	}
+
 }
 
 
@@ -160,31 +195,12 @@ footer {
 			font-size: 1.125em;
 			/* 1.125x body copy size = 18px */
 			line-height: 1.4;
-		  
 	}
 
 	.firstHeading{
 		line-height: 1;
 	}
 
-	.firstHeading {
-		margin: 0.1rem 0rem;
-	}
-
+	
 }
 
-.altCard {
-	height: 65vh;
-	width: 85vw;
-	border-radius: 1px;
-	margin: 35px;
-	margin-bottom: 35px;
-	padding: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.firstInner {
-	width: 100%;
-}
