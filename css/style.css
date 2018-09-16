@@ -117,18 +117,18 @@ body {
 
 }
 
-/* first card */
+/* heading card */
 
 .altCard {
 	width: 85vw;
 	border-radius: 1px;
 	margin: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	display: flex;
 	max-width: 1200px;
 }
 
-.firstInner {
+.headingContainer {
 	width: 100%;
 	max-width: 310px;
 }
@@ -186,7 +186,7 @@ footer {
 		padding: 60px 0px 90px 0px;
 	}
 
-	.firstInner {
+	.headingContainer {
 		max-width: 700px;
 	}
 
