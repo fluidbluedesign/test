@@ -56,8 +56,8 @@ text-decoration: none;
 	margin: 0.5rem 0rem;	
 }
 
-altHeading {
-	margin: 0.5rem 0;
+.altHeading {
+	margin: 0.5rem 0px;
 }
 
 .exclamation {
@@ -116,6 +116,10 @@ body {
 .scene {
 	perspective: 700px;
 
+}
+
+.firstCard {
+	margin: 20px 0px;
 }
 
 /* heading card */
