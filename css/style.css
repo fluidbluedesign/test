@@ -75,8 +75,6 @@ body {
 	background: papayawhip;
 	display: flex;
 	justify-content: center;
-	height: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 
 
@@ -86,8 +84,6 @@ body {
 	align-items: center;
 	width: 100vw;
 	max-width: 1200px;
-	height: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 
 
@@ -96,8 +92,6 @@ body {
 .scene {
 	perspective: 700px;
 	height: 28em;
-	padding: 35px 0px;
-	margin: 40px 0px;
 	/* background: red; */
 }
 
