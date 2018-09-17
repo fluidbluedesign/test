@@ -75,6 +75,8 @@ body {
 	background: papayawhip;
 	display: flex;
 	justify-content: center;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
 }
 
 .flexCenter {
@@ -83,6 +85,8 @@ body {
 	align-items: center;
 	width: 100vw;
 	max-width: 1200px;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
 }
 
 /* card and scene */
