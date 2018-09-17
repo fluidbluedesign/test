@@ -98,16 +98,18 @@ body {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-
 	overflow: hidden;
 	
 }
 
 
 .inner {
-	width: 90%;
+	width: 95%;
 	height: 90%;
 	padding: 0px;
+}
+.inner h2 {
+margin-top: 0.5em;
 }
 
 .content {
