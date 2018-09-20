@@ -187,7 +187,11 @@ footer {
 	.card {
 		height: 60vh;
 		margin-bottom: 100px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
+
+	
 
 	/* first card */
 
@@ -217,7 +221,13 @@ footer {
 	.firstHeading{
 		line-height: 1;
 	}
+	
+}
 
+
+.spacer {
+	height: 40px;
+	width: 100vw;
 	
 }
 
