@@ -115,7 +115,8 @@ body {
 .inner {
 	width: 85%;
 	height: 90%;
-	padding: 0px;
+	padding: 0px 10%;
+
 	margin-top: 10px;
 }
 
@@ -179,14 +180,22 @@ footer {
 	
 
 	/* card */
+
+	.scene {
+		height: auto;
+	}
 	.content {
 		padding-right: 10%;
 		max-width: 700px;
 	}
 
 	.card {
-		height: 60vh;
+		height: 50vh;
 		margin-bottom: 100px;
+		
+	}
+
+	.gridContainer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
