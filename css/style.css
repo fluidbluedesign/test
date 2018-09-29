@@ -111,12 +111,15 @@ body {
 	
 }
 
+[data-scroll] {
+	transform: rotatex(calc(-20deg + (var(--visible-y) * 20deg)));
+}
+
 
 .inner {
 	width: 85%;
 	height: 90%;
 	padding: 0px 10%;
-
 	margin-top: 10px;
 }
 
