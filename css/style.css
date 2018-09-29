@@ -89,14 +89,12 @@ body {
 
 .scene {
 	perspective: 700px;
-	height: 28em;
-	/* background: red; */
 }
 
 
 .card {
 	background: white;
-	height: 100%;
+	height: 75vh;
 	width: 90vw;
 	max-width: 1200px;
 	border-radius: 1px;
@@ -118,7 +116,6 @@ body {
 	width: 85%;
 	height: 90%;
 	padding: 0px 10%;
-	margin-top: 10px;
 }
 
 
@@ -129,21 +126,26 @@ body {
 
 .gridContainer {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 65% 35%;
+	grid-template-columns: 1fr;
 }
 
-/* images sizing */
-picture {
-	width: 100%;
+.imageContainer {
 	height: 100%;
+	width: 100%;
+	background-color: pink;
+}
+
+.imageContainer img{
+	height: 100%;
+	width: 100%;
 	object-fit: cover;
 }
 
-picture img{
-	width: inherit;
-	height: inherit;
-	object-fit: inherit;
-}
+
+
+/* images sizing */
+
 
 
 
@@ -198,9 +200,6 @@ footer {
 
 	/* card */
 
-	.scene {
-		height: auto;
-	}
 	.content {
 		padding-right: 10%;
 		max-width: 700px;
@@ -215,6 +214,7 @@ footer {
 	.gridContainer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
 	}
 
 	
@@ -250,7 +250,7 @@ footer {
 		line-height: 1;
 	}
 
-	.altHeading {
+	h2 {
 		margin: 0.5rem 0px;
 	}
 
