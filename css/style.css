@@ -193,7 +193,7 @@ footer {
 	}
 
 	.card {
-		height: 50vh;
+		height: 65vh;
 		margin-bottom: 100px;
 		
 	}
@@ -222,6 +222,19 @@ footer {
 
 	.stickytwo {
 		top: 50px;
+	}
+
+	/* images sizing */
+	picture {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	picture img{
+		width: inherit;
+		height: inherit;
+		object-fit: inherit;
 	}
 
 }
