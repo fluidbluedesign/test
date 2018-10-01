@@ -94,7 +94,7 @@ body {
 
 .card {
 	background: white;
-	height: 75vh;
+	height: 80vh;
 	width: 90vw;
 	max-width: 1200px;
 	border-radius: 1px;
@@ -103,6 +103,7 @@ body {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	justify-items: center;
 	overflow: hidden;
 	display: grid;
 	
@@ -116,13 +117,8 @@ body {
 .inner {
 	width: 85%;
 	height: 90%;
-	padding: 0px 10%;
-}
+	padding: 0px 5%;
 
-
-
-.content {
-	padding-right: 5%;
 }
 
 .gridContainer {
