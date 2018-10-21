@@ -1,0 +1,197 @@
+
+.firstHeading {
+	font-size: 3.5em;
+	margin: 0.5rem 0rem;	
+}
+
+
+
+.exclamation {
+	display: inline;
+	font-family: 'Limelight', cursive;
+	font-weight: 900;
+	margin-left: 7px;
+}
+
+
+
+/* layout */
+
+
+
+
+.flexCenter {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 100vw;
+	max-width: 1200px;
+}
+
+
+/* card and scene */
+
+.scene {
+	perspective: 700px;
+}
+
+.textbox{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.card {
+	background: white;
+	height: 80vh;
+	width: 90vw;
+	max-width: 1200px;
+	border-radius: 1px;
+	margin: 35px 0px;
+	box-shadow: 0px -1px 20px -13px rgb(102, 102, 102);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-items: center;
+	overflow: hidden;
+	display: grid;
+	
+}
+
+[data-scroll] {
+	transform: rotatex(calc(-10deg + (var(--visible-y) * 10deg)));
+}
+
+
+.inner {
+	width: 85%;
+	height: 90%;
+	padding: 0px 5%;
+
+}
+
+.gridContainer {
+	grid-template-rows: 65% 35%;
+	grid-template-columns: 1fr;
+}
+
+
+/* images sizing */
+
+
+/* heading card */
+
+.altCard {
+	width: 85vw;
+	margin: 10px;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.headingContainer {
+	width: 100%;
+	max-width: 310px;
+	color: white;
+}
+
+/* sticky layers */
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20px;
+}
+
+.stickytwo {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+
+
+/* footer */
+
+footer {
+	height: 40vh;
+}
+
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+
+	/* typography */
+	.firstHeading {
+		font-size: 5em;
+	}
+	
+
+	/* card */
+
+	.textbox {
+		
+		padding-right: 10%;
+		max-width: 700px;
+		
+	}
+
+	.card {
+		height: 70vh;
+		margin-bottom: 100px;
+		
+	}
+
+	
+
+	
+
+	/* first card */
+
+	.altCard { 
+		width: 80vw;
+		padding: 60px 0px 10% 0px;
+	}
+
+	.headingContainer {
+		max-width: 700px;
+	}
+
+	.sticky {
+		top: 50px;
+	}
+
+	.stickytwo {
+		top: 50px;
+	}
+
+	
+
+}
+
+
+/* media query for only phones */
+@media screen and (max-width:600px){
+
+	.firstHeading{
+		line-height: 1;
+	}
+
+	h2 {
+		margin: 0.5rem 0px;
+	}
+
+	.card {
+		max-width: 400px;
+	}
+	
+}
+
+
+.spacer {
+	height: 40px;
+	width: 100vw;
+	
+}
+

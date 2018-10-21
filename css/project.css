@@ -1,0 +1,10 @@
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+
+    .projectContent{
+        width: 60vw;
+    }
+
+}
