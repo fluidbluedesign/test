@@ -32,20 +32,21 @@ body {
 	font-size: 21px;
 }
 
+p { line-height: 1.4em; }
+
 h2 { font-weight: 600; }
 
 h3 { font-weight: 400; }
+
+h4 { margin-bottom: 1em;}
 
 strong { font-weight: 700; }
 
 a { text-decoration: none; }
 
-ul {
-	padding: 0px;
-}
-li {
-	padding: 10px;
-}
+ul { padding: 0px; }
+
+li { padding: 10px; }
 
 /* colours */
 .pink{ background: #FF9280; }
@@ -67,10 +68,56 @@ body {
     margin: 10px;
 }
 
-.verticalSpace {
-    margin-top: 60px;
-    margin-bottom: 60px;
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+	.content {
+        width: 80vw;
+    }
+
 }
+
+.verticalSpace {
+    margin: 20px 0px;
+}
+
+.verticalSpaceLarge {
+    margin: 40px 0px;
+}
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+	.verticalSpace {
+		margin: 40px 0px;
+	}
+}
+
+
+.gridContainer {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+}
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+	.gridContainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-gap: 5em;
+		align-items: center;
+	}
+}
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+		
+}
+
 
 .imageContainer {
 	height: 100%;
@@ -84,25 +131,11 @@ body {
 	object-fit: cover;
 }
 
-.gridContainer {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
+
 
 
 /* responsive */
-/* This applies from 600px onwards */
-@media (min-width: 600px) {
-
-    .content {
-        width: 80vw;
-    }
-
-}
-
-
-/* responsive */
-/* This applies from 600px onwards */
+/* This applies from 600px inwards - mobile only */
 @media (max-width: 600px) {
 
 body {

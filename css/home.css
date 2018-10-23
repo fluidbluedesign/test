@@ -126,7 +126,6 @@ footer {
 	.firstHeading {
 		font-size: 5em;
 	}
-	
 
 	/* card */
 
@@ -158,16 +157,12 @@ footer {
 		max-width: 700px;
 	}
 
-	.sticky {
-		top: 50px;
-	}
+	.sticky { top: 50px; }
 
-	.stickytwo {
-		top: 50px;
-	}
+	.stickytwo { top: 50px; }
 
 	.gridContainer {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
 	
