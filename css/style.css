@@ -48,6 +48,15 @@ ul { padding: 0px; }
 
 li { padding: 10px; }
 
+.eyebrow {
+	margin-bottom: 0px;
+	color: darkslategray;
+}
+
+.eyebrow + * {
+	margin-top: 0.5em;
+}
+
 /* colours */
 .pink{ background: #FF9280; }
 
