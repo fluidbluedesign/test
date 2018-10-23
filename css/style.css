@@ -68,6 +68,10 @@ body {
     margin: 10px;
 }
 
+.fullWidth {
+	width: 100%;
+}
+
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {

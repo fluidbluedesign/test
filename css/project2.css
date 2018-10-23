@@ -19,7 +19,7 @@
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
     .gridContainer {
-        grid-gap: 2em;
+        grid-gap: 3em;
     }
 }
 
