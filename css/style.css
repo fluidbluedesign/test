@@ -80,6 +80,14 @@ body {
 .verticalSpace {
     margin: 20px 0px;
 }
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+	.verticalSpace {
+		margin: 40px 0px;
+	}
+	
+}
 
 .verticalSpaceLarge {
     margin: 40px 0px;
@@ -88,10 +96,10 @@ body {
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
-	.verticalSpace {
-		margin: 40px 0px;
-	}
+.verticalSpaceLarge { margin: 70px 0px }
 }
+
+
 
 
 .gridContainer {
@@ -99,6 +107,8 @@ body {
     grid-auto-rows: auto;
    
 }
+
+
 
 /* responsive */
 /* This applies from 600px onwards */
@@ -111,6 +121,8 @@ body {
 		align-content: center;
 		grid-gap: 1em;
 	}
+
+	.gridTop {align-items: initial;}
 }
 
 /* responsive */
