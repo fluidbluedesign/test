@@ -29,10 +29,12 @@
 
 body {
 	font-family: SpaceGrotesk, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-	font-size: 21px;
+	font-size: 18px;
+	line-height: 1.4em;
 }
 
-p { line-height: 1.4em; }
+p {  
+	}
 
 h2 { font-weight: 600; }
 
@@ -44,9 +46,9 @@ strong { font-weight: 700; }
 
 a { text-decoration: none; }
 
-ul { padding: 0px; }
+ul { padding-left: 1em; }
 
-li { padding: 10px; }
+li { padding-bottom: 1rem; }
 
 .eyebrow {
 	margin-bottom: 0px;
@@ -54,7 +56,7 @@ li { padding: 10px; }
 }
 
 .eyebrow + * {
-	margin-top: 0.5em;
+	margin-top: 1.5rem;
 }
 
 /* colours */
@@ -136,6 +138,10 @@ body {
 	}
 
 	.gridTop {align-items: initial;}
+
+	.gridThree {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 /* responsive */
