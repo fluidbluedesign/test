@@ -211,3 +211,30 @@ footer {
 	width: 100vw;
 	
 }
+
+
+
+
+/* animation */
+
+.inline > *{
+	display: inline;
+}
+
+.card:hover .squiggle {
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+	animation-name: wiggle;
+
+}
+
+@keyframes wiggle {
+	from {
+	 padding-left: 5px;
+	}
+  
+	to {
+	  padding-left: 15px; 
+	}
+  }
