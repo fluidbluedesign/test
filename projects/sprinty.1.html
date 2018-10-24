@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="../css/project2.css">
 
     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
-
-    <script src='https://unpkg.com/scroll-out@2.2.3/dist/scroll-out.min.js'></script>
+    <script src="../js/lazyload.min.js"></script>
+    <script>
+        var myLazyLoad = new LazyLoad({
+            elements_selector: ".lazy"
+        });
+        </script>
 
 </head>
 
@@ -56,7 +60,7 @@
                 <div class="gridItem">
 
                     <div class="imageContainer verticalSpace">
-                        <img src="../img/sprintimer/herotransparentlarge.png" alt="Sprintimer">
+                        <img class="lazy" src="../img/sprintimer/herotransparentlarge.png" alt="Sprintimer">
                     </div>
 
                 </div>
@@ -104,7 +108,7 @@
                 <h3>Sprinty guides the user through each stage of the sprint&nbsp;process.</h3>
 
                 <div class="imageContainer verticalSpace">
-                    <img src="https://thejusdesign.files.wordpress.com/2018/07/sprintimer-themes.png" alt="Sprintimer">
+                    <img class="lazy" src="https://thejusdesign.files.wordpress.com/2018/07/sprintimer-themes.png" alt="Sprintimer">
                 </div>
 
             </div>
@@ -115,7 +119,7 @@
 
                 <h3>Each stage is timed proportionally to how long the user has to run the&nbsp;sprint.</h3>
                 <div class="imageContainer verticalSpace">
-                    <img src="https://thejusdesign.files.wordpress.com/2018/07/shotsnapp-1531648557-105.png" alt="Sprintimer">
+                    <img class="lazy" src="https://thejusdesign.files.wordpress.com/2018/07/shotsnapp-1531648557-105.png" alt="Sprintimer">
                 </div>
 
             </div>
@@ -124,7 +128,7 @@
 
 
                 <div class="imageContainer verticalSpace">
-                    <img src="https://thejusdesign.files.wordpress.com/2018/07/sprintimer-resize.gif" alt="Sprintimer">
+                    <img class="lazy" src="https://thejusdesign.files.wordpress.com/2018/07/sprintimer-resize.gif" alt="Sprintimer">
                 </div>
 
             </div>
@@ -141,7 +145,7 @@
             <div class="gridContainer gridTop">
                 <h3>Research involved taking part&nbsp;in, and observing how people worked in&nbsp;sprints.</h3>
                 <div class="imageContainer ">
-                    <img src="../projects/sprinty/research.jpg" alt="Sprintimer">
+                    <img class="lazy" src="../projects/sprinty/research.jpg" alt="Sprintimer">
                 </div>
             </div>
         </div>
@@ -150,7 +154,7 @@
             <div class="gridContainer gridTop">
                 <h3>Challenges included doing the math to make sure timers&nbsp;worked.</h3>
                 <div class="imageContainer">
-                    <img src="../projects/sprinty/math.jpg" alt="">
+                    <img class="lazy" src="../projects/sprinty/math.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -159,7 +163,7 @@
             <div class="gridContainer gridTop">
                 <h3>Early prototypes were created before any&nbsp;styling.</h3>
                 <div class="imageContainer">
-                    <img src="../projects/sprinty/prototype.gif" alt="">
+                    <img class="lazy" src="../projects/sprinty/prototype.gif" alt="">
                 </div>
             </div>
         </div>
