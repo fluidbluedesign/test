@@ -3,7 +3,7 @@
 
 .firstHeading {
 	font-size: 3em;
-	margin: 0.5rem 0rem;	
+	margin: 0.5rem 0rem;
 }
 
 /* responsive */
@@ -32,9 +32,20 @@
 /* links */
 
 a {
-	color:inherit;
+	color: inherit;
 	text-decoration: none;
-   }
+}
+
+.splitFlex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.splitFlex + * {
+	margin-top: 0px;
+}
+
 
 
 /* layout */
@@ -58,7 +69,7 @@ a {
 	perspective: 700px;
 }
 
-.textbox{
+.textbox {
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -79,7 +90,7 @@ a {
 	justify-items: center;
 	overflow: hidden;
 	display: grid;
-	
+
 }
 
 [data-scroll] {
@@ -113,7 +124,7 @@ a {
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
-	.altCard { 
+	.altCard {
 		width: 80vw;
 		padding: 60px 10px;
 	}
@@ -121,7 +132,6 @@ a {
 
 .headingContainer {
 	width: 100%;
-	max-width: 310px;
 	color: white;
 }
 
@@ -152,52 +162,55 @@ footer {
 @media (min-width: 600px) {
 
 	/* typography */
-	
+
 
 	/* card */
 
 	.textbox {
-		
+
 		padding-right: 10%;
 		max-width: 700px;
-		
+
 	}
 
 	.card {
 		height: 70vh;
 		margin-bottom: 100px;
-		
+
 	}
 
-	
 
-	
+
+
 
 	/* first card */
 
-	
+
 
 	.headingContainer {
-		max-width: 700px;
 	}
 
-	.sticky { top: 50px; }
+	.sticky {
+		top: 50px;
+	}
 
-	.stickytwo { top: 50px; }
+	.stickytwo {
+		top: 50px;
+	}
 
 	.gridContainer {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
-	
+
 
 }
 
 
 /* media query for only phones */
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-	.firstHeading{
+	.firstHeading {
 		line-height: 1;
 	}
 
@@ -212,14 +225,14 @@ footer {
 	.altCard {
 		max-width: 390px;
 	}
-	
+
 }
 
 
 .spacer {
 	height: 40px;
 	width: 100vw;
-	
+
 }
 
 
@@ -227,24 +240,24 @@ footer {
 
 /* animation */
 
-.inline > *{
+.inline>* {
 	display: inline;
 }
 
 .card:hover .squiggle {
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
-  	animation-direction: alternate;
+	animation-direction: alternate;
 	animation-name: wiggle;
 
 }
 
 @keyframes wiggle {
 	from {
-	 padding-left: 5px;
+		padding-left: 5px;
 	}
-  
+
 	to {
-	  padding-left: 15px; 
+		padding-left: 15px;
 	}
-  }
+}
