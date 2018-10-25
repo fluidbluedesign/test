@@ -137,7 +137,11 @@ body {
 		grid-gap: 1em;
 	}
 
-	.gridTop {align-items: initial;}
+	.gridTop { align-items: initial; }
+
+	.gridTop > * {
+		margin-top: 0px;
+	}
 
 	.gridThree {
 		grid-template-columns: 1fr 1fr 1fr;
