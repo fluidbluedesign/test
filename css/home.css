@@ -109,8 +109,6 @@ a {
 }
 
 
-/* images sizing */
-
 
 /* heading card */
 
@@ -128,6 +126,14 @@ a {
 		width: 80vw;
 		padding: 60px 10px;
 	}
+}
+
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+.altHeading {
+	max-width: 700px;
+}
 }
 
 .headingContainer {
