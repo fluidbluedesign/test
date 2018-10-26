@@ -191,11 +191,6 @@ footer {
 
 	/* first card */
 
-
-
-	.headingContainer {
-	}
-
 	.sticky {
 		top: 50px;
 	}
@@ -250,20 +245,26 @@ footer {
 	display: inline;
 }
 
-.card:hover .squiggle {
-	animation-duration: 0.5s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-name: wiggle;
+/* responsive */
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
 
-}
-
-@keyframes wiggle {
-	from {
-		padding-left: 5px;
+	.card:hover .squiggle {
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-name: wiggle;
+	
 	}
-
-	to {
-		padding-left: 15px;
+	
+	@keyframes wiggle {
+		from {
+			padding-left: 5px;
+		}
+	
+		to {
+			padding-left: 15px;
+		}
 	}
+	
 }
