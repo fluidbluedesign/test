@@ -84,6 +84,10 @@ body {
 	width: 100%;
 }
 
+.limitWidth {
+	max-width: 1000px;
+}
+
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
