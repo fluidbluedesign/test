@@ -56,6 +56,10 @@ li { padding-bottom: 1rem; }
 	margin-top: 0.5rem;
 }
 
+.eyebrow + ul {
+	margin-top: 1rem;
+}
+
 /* colours */
 .pink{ background: #FF9280; }
 
