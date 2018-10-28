@@ -259,11 +259,11 @@ footer {
 	
 	@keyframes wiggle {
 		from {
-			padding-left: 5px;
+			padding-left: initial;
 		}
 	
 		to {
-			padding-left: 15px;
+			padding-left: 5px;
 		}
 	}
 	
