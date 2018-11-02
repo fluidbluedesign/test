@@ -33,37 +33,55 @@ body {
 	line-height: 1.4em;
 }
 
-h2 { font-weight: 600; }
+h2 {
+	font-weight: 600;
+}
 
-h3 { font-weight: 400; }
+h3 {
+	font-weight: 400;
+}
 
-h4 { margin-bottom: 1em;}
+h4 {
+	margin-bottom: 1em;
+}
 
-strong { font-weight: 700; }
+strong {
+	font-weight: 700;
+}
 
-a { text-decoration: none; }
+a {
+	text-decoration: none;
+}
 
-ul { padding-left: 1em; }
+ul {
+	padding-left: 1em;
+}
 
-li { padding-bottom: 1rem; }
+li {
+	padding-bottom: 1rem;
+}
 
 .eyebrow {
 	margin-bottom: 0px;
 	color: darkslategray;
 }
 
-.eyebrow + * {
+.eyebrow+* {
 	margin-top: 0.5rem;
 }
 
-.eyebrow + ul {
+.eyebrow+ul {
 	margin-top: 1rem;
 }
 
 /* colours */
-.pink{ background: #FF9280; }
+.pink {
+	background: #FF9280;
+}
 
-.white { color: white; }
+.white {
+	color: white;
+}
 
 
 /* layout */
@@ -74,10 +92,10 @@ body {
 }
 
 .content {
-    width: 85vw;
-    max-width: 1200px;
-    padding: 0px 20px;
-    margin: 10px;
+	width: 85vw;
+	max-width: 1200px;
+	padding: 0px 20px;
+	margin: 10px;
 }
 
 .fullWidth {
@@ -92,40 +110,43 @@ body {
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
 	.content {
-        width: 80vw;
-    }
+		width: 80vw;
+	}
 
 }
 
 .verticalSpace {
-    margin: 20px 0px;
+	margin: 20px 0px;
 }
+
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
 	.verticalSpace {
 		margin: 40px 0px;
 	}
-	
+
 }
 
 .verticalSpaceLarge {
-    margin: 40px 0px;
+	margin: 40px 0px;
 }
 
 /* responsive */
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
-.verticalSpaceLarge { margin: 70px 0px }
+	.verticalSpaceLarge {
+		margin: 70px 0px
+	}
 }
 
 
 
 
 .gridContainer {
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-   
+	grid-template-columns: 1fr;
+	grid-auto-rows: auto;
+
 }
 
 
@@ -142,21 +163,17 @@ body {
 		grid-gap: 1em;
 	}
 
-	.gridTop { align-items: initial; }
+	.gridTop {
+		align-items: initial;
+	}
 
-	.gridTop > * {
+	.gridTop>* {
 		margin-top: 0px;
 	}
 
 	.gridThree {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-}
-
-/* responsive */
-/* This applies from 600px onwards */
-@media (min-width: 600px) {
-		
 }
 
 
@@ -166,7 +183,13 @@ body {
 
 }
 
-.imageContainer img{
+.imageContainer img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.imageContainer video {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
@@ -179,9 +202,8 @@ body {
 /* This applies from 600px inwards - mobile only */
 @media (max-width: 600px) {
 
-body {
-	font-size: 16px;
-}
+	body {
+		font-size: 16px;
+	}
 
 }
-
