@@ -33,10 +33,17 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 10px 0px;
 }
 
 .splitFlex + * {
 	margin-top: 0px;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
 }
 
 
