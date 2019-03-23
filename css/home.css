@@ -14,13 +14,6 @@
 	}
 }
 
-.exclamation {
-	display: inline;
-	font-family: 'Limelight', cursive;
-	font-weight: 900;
-	margin-left: 7px;
-}
-
 .inner>*:first-child {
 	margin-top: 0px;
 }
