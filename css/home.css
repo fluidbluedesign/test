@@ -10,7 +10,7 @@
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
 	.firstHeading {
-		font-size: 4em;
+		font-size: 3em;
 	}
 }
 
