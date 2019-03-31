@@ -78,7 +78,7 @@ a {
 
 .card {
 	background: white;
-	height: 80vh;
+	min-height: 80vh;
 	width: 90vw;
 	max-width: 1200px;
 	border-radius: 1px;
@@ -114,6 +114,7 @@ a {
 
 .altCard {
 	width: 85vw;
+	max-width: 1200px;
 	margin: 10px;
 	margin-bottom: 10px;
 	display: flex;
@@ -182,7 +183,6 @@ footer {
 	.card {
 		height: 70vh;
 		margin-bottom: 100px;
-
 	}
 
 
